@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Recoleta DEMO';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Recoleta Regular DEMO'), url('Recoleta-RegularDEMO.woff') format('woff');
+    }
+
+* {
+    box-sizing: border-box;
+    font-family: "Banana Grotesk",sans-serif;
+    
+}
+#header{
+    width: auto;
+    height: auto;
+    background: #D4E8F9;
+    padding-bottom: 200px;
+    padding-top: 1px;
+}
+.buttondg{
+    border-radius: 9px;
+    border: none;
+    background-color: #D4E8F9;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.nav-link2{
+    font-size: small;
+    color:#092036;
+    text-decoration: none !important;
+   font-weight: bold;
+   padding: 12px 12px;
+}
+.nav-link{
+    font-size: small;
+    color:#092036;
+    font-weight: bold;
+    padding: 12px !important;
+}
+
+.tuttodiv{
+    text-decoration: none;
+    padding: 15px !important;
+}
+.containerd{
+    margin: 0 auto;
+    max-width: 1288px;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 14px;
+    background-color: white;
+    transition: top 0.3s;
+    z-index: 1;
+}
+.buttonacc{
+    border-radius: 9px;
+    border: none;
+    background: transparent;
+    padding: 9px 20px;
+    color: #FB5B4F;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonacc:hover{
+    background-color: #FEEEED;
+}
+.buttonacc:focus{
+    outline: none;
+}
+.buttonreg{
+    border-radius: 9px;
+    border: none;
+    background-color: #FB5B4F;
+    padding: 9px 20px;
+    color: white;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+}
+.buttonreg:hover{
+    background-color: #B0372E;
+}
+.buttonreg:focus{
+    outline: none;
+}
+.digitah1{
+    font-family: 'Recoleta Regular DEMO';
+    font-weight: bold;
+    font-size: 50px;
+}
+.contjumb{
+    padding-top: 40px;
+}
+.script{
+    display: flex;
+    margin-top: 120px;
+    max-width: 1075px !important;
+    flex-wrap: nowrap !important;
+}
+#omin{
+    width: 402px;
+    height: 206px;
+    margin-top: 70px;
+}
+.barr{
+    max-width: 1075px !important;
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+}
+.inputbarr{
+  width: 80%;
+  border: 0;
+  margin-right: 42px;
+}
+.inputbarr:focus{
+    outline: none;
+}
+
+.buttoncerc{
+    border-radius: 9px;
+    border: none;
+    background-color: #FB5B4F;
+    padding: 9px 50px;
+    color: white;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+}
+.buttoncerc:hover{
+    background-color: #B0372E;
+}
+.buttoncerc:focus{
+    outline: none;
+}
+
+
+.lens{
+    width: 26px;
+    height: 26px;
+}
+
+.input-group{
+    flex-wrap: nowrap !important;
+}
+.centralimg{
+   display: flex;
+   justify-content: space-around;
+}
+
+.centralscript{
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.buttcard{
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.buttonserial{
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    padding: 9px 15px;
+    color: #092036;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonserial:hover{
+    background-color: #FEEEED;
+    color: #FB5B4F;
+}
+.buttonserial:focus{
+    outline: none;
+}
+.inputfoot{
+    width: 69%;
+    border: 0;
+}
+.inputfoot:focus{
+outline: none;
+}
+.footdivinput{
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+    width: 484px !important;
+    flex-wrap: nowrap !important;
+}
+.buttonnewsletter{
+    border-radius: 7px;
+    border: none;
+    background: #E9EEF2;;
+    padding: 9px 15px;
+    color: #092036;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonnewsletter:hover{
+    background-color: #FEEEED;
+    color: #FB5B4F;
+}
+.footerabout{
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    max-width: 1000px;
+}
+.ulfoot{
+list-style-type: none;
+color: black;
+padding: 0px !important;
+font-weight: bold !important;
+}
+.linkfoot, .linkfoot:hover{
+ text-decoration: none !important;
+ color: inherit !important;
+ font-weight: bold;
+}
+.footicon{
+    display: flex;
+   justify-content: flex-end;
+}
+.bi{
+  margin: 6px;
+  cursor: pointer;
+}
+.containerlance{
+    justify-content: center;
+}
+.freereg{
+  border: hidden !important;
+  border-radius: 10px !important;
+  padding: 3.21rem 2rem;
+  height: fit-content;
+}
+.nofreereg{
+  border: hidden !important;
+  border-radius: 10px !important;
+  background-color:  #092036 !important;
+  color: white;
+  padding: 3.21rem 2rem;
+}
+.buttonfree{
+    border-radius: 9px;
+    border: solid 1px black;
+    background: transparent;
+    padding: 9px 20px;
+    color: black;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonfree:hover{
+    background-color: #FB5B4F;
+    color: white;
+    border: solid 1px #FB5B4F;
+}
+.buttonfree:focus{
+    outline: none;
+}
+.buttonnofree{
+    border-radius: 9px;
+    border: solid 1px black;
+    background: white;
+    padding: 9px 20px;
+    color: black;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonnofree:hover{
+    background-color: #FB5B4F;
+    color: white;
+    border: none;
+}
+.buttonnofree:focus{
+    outline: none;
+}
+.h4form{
+color: #FB5B4F;
+text-align: center;
+font-weight: bold;
+}
+.submitacc{
+    border-radius: 9px;
+    border: none;
+    background-color: #FB5B4F;
+    padding: 9px 50px;
+    color: white;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+}
+.submitacc:hover{
+    background-color: #B0372E;
+}
+.submitacc:focus{
+    outline: none;
+}
+.perspass{
+    border-radius: 9px;
+    border: none;
+    background: transparent;
+    padding: 9px 20px;
+    color: #FB5B4F;
+    font-family: "Banana Grotesk",sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.perspass:hover{
+    background-color: #FEEEED;
+}
+.perspass:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .footerabout{
+      display: grid;
+  }
+  .text{
+      display: none;
+  }
+  .script{
+      display: grid;
+  }
+  .accedi{
+      display: grid;
+  }
+  }
+  @media screen and (max-width: 600px){
+.centralimg{
+    display: grid;
+}
+  }
